@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-dark: rgb(5, 41, 49);
+    
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif ;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 630px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primary-dark);
+}
+
+form button:active {
+    background:rgb(12, 6, 6);
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.4em;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(92, 228, 149) ;
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(221, 131, 109) ;  
+}
